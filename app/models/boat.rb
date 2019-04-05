@@ -11,5 +11,9 @@ class Boat < ActiveRecord::Base
     end
   end
 
+  def self.dinghy
+    where("length < 20")
+  end
+
 
 end
