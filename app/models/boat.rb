@@ -10,4 +10,6 @@ class Boat < ActiveRecord::Base
       self.all
     end
   end
+
+
 end
